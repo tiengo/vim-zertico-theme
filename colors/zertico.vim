@@ -72,46 +72,46 @@ hi String guifg=#bcbcbc gui=italic ctermfg=250
 hi Visual guifg=#d0d0d0 gui=none ctermfg=252 guibg=#875faf ctermbg=97
 
 " Ruby Highlighting
-hi rubyStringDelimiter guifg=#afd700 gui=none ctermfg=148 guibg=-1
-hi rubyString guifg=#bcbcbc gui=none ctermfg=250 guibg=-1
-hi rubyModule guifg=#7e8aa2 gui=none ctermfg=103 guibg=-1
-hi rubyClass guifg=#7e8aa2 gui=none ctermfg=103 guibg=-1
-hi rubyDefine guifg=#7e8aa2 gui=none ctermfg=103 guibg=-1
-hi rubyComment guifg=#808080 gui=italic ctermfg=244 guibg=-1
-hi rubyConstant guifg=#5fd75f gui=none ctermfg=77 guibg=-1
-hi rubyControl guifg=#afd700 gui=none ctermfg=148 guibg=-1
-hi rubyFunction guifg=#ff8700 gui=none ctermfg=208 guibg=-1
-hi rubyAttribute guifg=#ff8700 gui=none ctermfg=208 guibg=-1
-hi rubyFloat guifg=#ff8700 gui=none ctermfg=208 guibg=-1
-hi rubyBoolean guifg=#ff8700 gui=none ctermfg=208 guibg=-1
-hi rubyAccess guifg=#ff8700 gui=none ctermfg=208 guibg=-1
-hi rubyTestStatement guifg=#ff8700 gui=none ctermfg=208 guibg=-1
-hi rubyInteger guifg=#ff0087 gui=none ctermfg=162 guibg=-1
-hi rubyInclude guifg=#ff0087 gui=bold ctermfg=162 guibg=-1
-hi rubyRegxpAnchor guifg=#ff0087 gui=none ctermfg=162 guibg=-1
-hi rubyInterpolationDelimiter guifg=#ff0087 gui=none ctermfg=162 guibg=-1
-hi rubySymbol guifg=#ff0087 gui=none ctermfg=162 guibg=-1
-hi rubyPseudoVariable guifg=#ff0087 gui=none ctermfg=162 guibg=-1
-hi rubyBlockParameter guifg=#875faf gui=none ctermfg=97 guibg=-1
-hi rubyInstanceVariable guifg=#875faf gui=none ctermfg=97 guibg=-1
-hi rubyTodo guifg=#000000 gui=none ctermfg=16 guibg=178 ctermbg=178
+hi rubyStringDelimiter guifg=#afd700 gui=none ctermfg=148 guibg=NONE
+hi rubyString guifg=#bcbcbc gui=none ctermfg=250 guibg=NONE
+hi rubyModule guifg=#7e8aa2 gui=none ctermfg=103 guibg=NONE
+hi rubyClass guifg=#7e8aa2 gui=none ctermfg=103 guibg=NONE
+hi rubyDefine guifg=#7e8aa2 gui=none ctermfg=103 guibg=NONE
+hi rubyComment guifg=#808080 gui=italic ctermfg=244 guibg=NONE
+hi rubyConstant guifg=#5fd75f gui=none ctermfg=77 guibg=NONE
+hi rubyControl guifg=#afd700 gui=none ctermfg=148 guibg=NONE
+hi rubyFunction guifg=#ff8700 gui=none ctermfg=208 guibg=NONE
+hi rubyAttribute guifg=#ff8700 gui=none ctermfg=208 guibg=NONE
+hi rubyFloat guifg=#ff8700 gui=none ctermfg=208 guibg=NONE
+hi rubyBoolean guifg=#ff8700 gui=none ctermfg=208 guibg=NONE
+hi rubyAccess guifg=#ff8700 gui=none ctermfg=208 guibg=NONE
+hi rubyTestStatement guifg=#ff8700 gui=none ctermfg=208 guibg=NONE
+hi rubyInteger guifg=#ff0087 gui=none ctermfg=162 guibg=NONE
+hi rubyInclude guifg=#ff0087 gui=bold ctermfg=162 guibg=NONE
+hi rubyRegxpAnchor guifg=#ff0087 gui=none ctermfg=162 guibg=NONE
+hi rubyInterpolationDelimiter guifg=#ff0087 gui=none ctermfg=162 guibg=NONE
+hi rubySymbol guifg=#ff0087 gui=none ctermfg=162 guibg=NONE
+hi rubyPseudoVariable guifg=#ff0087 gui=none ctermfg=162 guibg=NONE
+hi rubyBlockParameter guifg=#875faf gui=none ctermfg=97 guibg=NONE
+hi rubyInstanceVariable guifg=#875faf gui=none ctermfg=97 guibg=NONE
+hi rubyTodo guifg=#000000 gui=none ctermfg=16 guibg=NONE ctermbg=178
 
 " Markdown highlights
 hi markdownItalic guifg=#ffffff gui=italic cterm=italic ctermfg=252
-hi markdownBold guifg=ffffff gui=bold cterm=bold ctermfg=250
-hi markdownCode guifg=#7e8aa2 gui=none ctermfg=103 guibg=-1
-hi markdownLinkText guifg=#ff0087 gui=none cterm=underline ctermfg=162 guibg=-1
-hi markdownBlockquote guifg=#5fff5f gui=none cterm=none ctermfg=40 guibg=-1
-hi markdownIdDeclaration guifg=#afd700 gui=none ctermfg=148 guibg=-1
-hi markdownId guifg=#afd700 gui=none ctermfg=148 guibg=-1
+hi markdownBold guifg=#ffffff gui=bold cterm=bold ctermfg=250
+hi markdownCode guifg=#7e8aa2 gui=none ctermfg=103 guibg=NONE
+hi markdownLinkText guifg=#ff0087 gui=none cterm=underline ctermfg=162 guibg=NONE
+hi markdownBlockquote guifg=#5fff5f gui=none cterm=none ctermfg=40 guibg=NONE
+hi markdownIdDeclaration guifg=#afd700 gui=none ctermfg=148 guibg=NONE
+hi markdownId guifg=#afd700 gui=none ctermfg=148 guibg=NONE
 
 " Puppet highlights
-hi puppetParam guifg=#ff0087 gui=none cterm=none ctermfg=162 guibg=-1
-hi puppetParamString guifg=#ff0087 gui=none cterm=none ctermfg=162 guibg=-1
-hi puppetVariable guifg=#ff8700 gui=none ctermfg=208 guibg=-1
-hi puppetParamKeyword guifg=#ff8700 gui=none ctermfg=208 guibg=-1
-hi puppetString guifg=#5fd75f gui=none ctermfg=77 guibg=-1
-hi puppetParamName guifg=#af005f gui=none ctermfg=103 guibg=-1
+hi puppetParam guifg=#ff0087 gui=none cterm=none ctermfg=162 guibg=NONE
+hi puppetParamString guifg=#ff0087 gui=none cterm=none ctermfg=162 guibg=NONE
+hi puppetVariable guifg=#ff8700 gui=none ctermfg=208 guibg=NONE
+hi puppetParamKeyword guifg=#ff8700 gui=none ctermfg=208 guibg=NONE
+hi puppetString guifg=#5fd75f gui=none ctermfg=77 guibg=NONE
+hi puppetParamName guifg=#af005f gui=none ctermfg=103 guibg=NONE
 
 
 " Terminal colors reference
